@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 19:09:13</sys_created_on>
+        <sys_id>71ade0bac3a54f941f1571fdd4013192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1920012_mindbr_0_mb_appoinment.x_1920012_mindbr_0.admin</sys_name>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_security_acl display_value="x_1920012_mindbr_0_mb_appoinment">29ade0bac3a54f941f1571fdd4013157</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_71ade0bac3a54f941f1571fdd4013192</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 19:09:13</sys_updated_on>
+        <sys_user_role display_value="x_1920012_mindbr_0.admin" name="x_1920012_mindbr_0.admin">bb9d3fe6c3214f941f1571fdd4013126</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

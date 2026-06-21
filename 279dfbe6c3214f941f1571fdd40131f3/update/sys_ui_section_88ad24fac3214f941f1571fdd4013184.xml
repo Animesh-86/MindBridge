@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="88ad24fac3214f941f1571fdd4013184" sys_domain="global" table="x_1920012_mindbr_0_mb_appoinment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 19:19:51</sys_created_on>
+            <sys_id>5110f4fec3a54f941f1571fdd4013140</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920012_mindbr_0_mb_appoinment" sys_domain="global" view="Default view">88ad24fac3214f941f1571fdd4013184</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:19:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>counselor</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 19:19:51</sys_created_on>
+            <sys_id>1d10f4fec3a54f941f1571fdd4013140</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920012_mindbr_0_mb_appoinment" sys_domain="global" view="Default view">88ad24fac3214f941f1571fdd4013184</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:19:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 19:19:51</sys_created_on>
+            <sys_id>d510f4fec3a54f941f1571fdd4013141</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920012_mindbr_0_mb_appoinment" sys_domain="global" view="Default view">88ad24fac3214f941f1571fdd4013184</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:19:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>note0</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 19:19:51</sys_created_on>
+            <sys_id>d510f4fec3a54f941f1571fdd4013167</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920012_mindbr_0_mb_appoinment" sys_domain="global" view="Default view">88ad24fac3214f941f1571fdd4013184</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:19:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 19:19:51</sys_created_on>
+            <sys_id>9110f4fec3a54f941f1571fdd4013168</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920012_mindbr_0_mb_appoinment" sys_domain="global" view="Default view">88ad24fac3214f941f1571fdd4013184</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:19:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 19:19:51</sys_created_on>
+            <sys_id>5d10f4fec3a54f941f1571fdd4013168</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920012_mindbr_0_mb_appoinment" sys_domain="global" view="Default view">88ad24fac3214f941f1571fdd4013184</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:19:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>appointment_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 19:19:51</sys_created_on>
+            <sys_id>1910f4fec3a54f941f1571fdd4013169</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920012_mindbr_0_mb_appoinment" sys_domain="global" view="Default view">88ad24fac3214f941f1571fdd4013184</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:19:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirmation_token</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 19:19:51</sys_created_on>
+            <sys_id>d110f4fec3a54f941f1571fdd401316a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920012_mindbr_0_mb_appoinment" sys_domain="global" view="Default view">88ad24fac3214f941f1571fdd4013184</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:19:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1920012_mindbr_0_mb_appoinment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 19:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88ad24fac3214f941f1571fdd4013184</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1920012_mindbr_0_mb_appoinment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+            <sys_update_name>sys_ui_section_88ad24fac3214f941f1571fdd4013184</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:09:07</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

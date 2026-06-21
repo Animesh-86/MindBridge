@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="emotional_description" label="Emotional Description" language="en" table="x_1920012_mindbr_0_mb_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>emotional_description</element>
+            <help/>
+            <hint/>
+            <label>Emotional Description</label>
+            <language>en</language>
+            <name>x_1920012_mindbr_0_mb_case</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 18:57:55</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Emotional Description</sys_name>
+            <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+            <sys_update_name>sys_documentation_x_1920012_mindbr_0_mb_case_emotional_description_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 19:04:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c490f432c3e54f941f1571fdd40131db" label="MB Resource" max_length="40" name="x_1920012_mindbr_0_mb_resource" type="collection">
+        <element label="URL" max_length="1024" name="url" type="url"/>
+        <element choice="3" label="Resource Type" max_length="255" name="resource_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Article" sequence="0" value="Article"/>
+                <element inactive_on_update="false" label="Exercise" sequence="3" value="Exercise"/>
+                <element inactive_on_update="false" label="Video" sequence="1" value="Video"/>
+                <element inactive_on_update="false" label="Helpline" sequence="2" value="Helpline"/>
+                <element inactive_on_update="false" label="Guide" sequence="4" value="Guide"/>
+            </choice>
+        </element>
+        <element label="Fields" mandatory="true" max_length="100" name="fields" type="string"/>
+        <element label="Crisis Resource" max_length="255" name="crisis_resource" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element choice="3" label="Category" mandatory="true" max_length="255" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Stress" sequence="2" value="Stress"/>
+                <element inactive_on_update="false" label="Crisis" sequence="4" value="Crisis"/>
+                <element inactive_on_update="false" label="General" sequence="5" value="General"/>
+                <element inactive_on_update="false" label="Grief" sequence="3" value="Grief"/>
+                <element inactive_on_update="false" label="Depression" sequence="1" value="Depression"/>
+                <element inactive_on_update="false" label="Anxiety" sequence="0" value="Anxiety"/>
+            </choice>
+        </element>
+    </element>
+</database>

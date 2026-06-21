@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="speciality" table="x_1920012_mindbr_0_mb_counselor" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>speciality</element>
+            <name>x_1920012_mindbr_0_mb_counselor</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 18:57:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>speciality</sys_name>
+            <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+            <sys_update_name>sys_choice_x_1920012_mindbr_0_mb_counselor_speciality</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 18:57:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>speciality</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anxiety</label>
+            <language>en</language>
+            <name>x_1920012_mindbr_0_mb_counselor</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 18:57:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 18:57:35</sys_updated_on>
+            <value>Anxiety</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>speciality</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Depression</label>
+            <language>en</language>
+            <name>x_1920012_mindbr_0_mb_counselor</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 18:57:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 18:57:35</sys_updated_on>
+            <value>Depression</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>speciality</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stress</label>
+            <language>en</language>
+            <name>x_1920012_mindbr_0_mb_counselor</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 18:57:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 18:57:35</sys_updated_on>
+            <value>Stress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>speciality</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grief</label>
+            <language>en</language>
+            <name>x_1920012_mindbr_0_mb_counselor</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 18:57:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 18:57:35</sys_updated_on>
+            <value>Grief</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>speciality</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General</label>
+            <language>en</language>
+            <name>x_1920012_mindbr_0_mb_counselor</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 18:57:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 18:57:35</sys_updated_on>
+            <value>General</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>speciality</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Crisis</label>
+            <language>en</language>
+            <name>x_1920012_mindbr_0_mb_counselor</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 18:57:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 18:57:35</sys_updated_on>
+            <value>Crisis</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

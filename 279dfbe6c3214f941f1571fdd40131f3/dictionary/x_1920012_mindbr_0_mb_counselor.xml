@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="aaaebf6ac3214f941f1571fdd401319d" label="MB Counselor" max_length="40" name="x_1920012_mindbr_0_mb_counselor" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Speciality" mandatory="true" max_length="255" name="speciality" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="General" sequence="4" value="General"/>
+                <element inactive_on_update="false" label="Stress" sequence="2" value="Stress"/>
+                <element inactive_on_update="false" label="Anxiety" sequence="0" value="Anxiety"/>
+                <element inactive_on_update="false" label="Crisis" sequence="5" value="Crisis"/>
+                <element inactive_on_update="false" label="Grief" sequence="3" value="Grief"/>
+                <element inactive_on_update="false" label="Depression" sequence="1" value="Depression"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element choice="3" label="Status" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Offline" sequence="2" value="Offline"/>
+                <element inactive_on_update="false" label="Busy" sequence="1" value="Busy"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
+            </choice>
+        </element>
+        <element label="Availability" max_length="500" name="availability" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+    </element>
+</database>

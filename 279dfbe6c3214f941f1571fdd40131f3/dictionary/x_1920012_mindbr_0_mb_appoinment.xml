@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4b9d20bac3a54f941f1571fdd401313c" label="MB Appoinment" max_length="40" name="x_1920012_mindbr_0_mb_appoinment" type="collection">
         <element label="Confirmation Token" max_length="100" name="confirmation_token" type="string"/>
-        <element label="Notes" max_length="1000" name="note0" type="string"/>
         <element label="Counselor" mandatory="true" max_length="32" name="counselor" reference="x_1920012_mindbr_0_mb_counselor" type="reference"/>
         <element choice="3" label="Status" max_length="255" name="status" type="choice">
             <choice>

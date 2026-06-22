@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>MB Counselors</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 20:24:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>181e7c3ec3294f941f1571fdd40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MB Counselors</sys_name>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_update_name>sys_ui_module_181e7c3ec3294f941f1571fdd40131c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 20:24:50</sys_updated_on>
+        <table>x_1920012_mindbr_0_mb_counselor</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</application>
+        <file_path/>
+        <instance_id>e29568311b5a7ddc39a54089bd4bcb4e</instance_id>
+        <instance_name>dev204060</instance_name>
+        <name>sys_ui_module_181e7c3ec3294f941f1571fdd40131c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>MB Counselors</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-21 20:24:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>181e7c3ec3294f941f1571fdd40131c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MB Counselors</sys_name><sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package><sys_policy/><sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope><sys_update_name>sys_ui_module_181e7c3ec3294f941f1571fdd40131c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-21 20:24:50</sys_updated_on><table>x_1920012_mindbr_0_mb_counselor</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-578580445</payload_hash>
+        <record_name>MB Counselors</record_name>
+        <reverted_from/>
+        <source>be457cbac3e54f941f1571fdd401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 12:39:04</sys_created_on>
+        <sys_id>58fddccbc365cf941f1571fdd401315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eef576c670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 12:39:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>15fefcbee2294f94e4a548e294692821</update_guid>
+        <update_guid_history>15fefcbee2294f94e4a548e294692821:-419102552,15fefcbee2294f94e4a548e294692821:-419102552</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 12:41:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>4b01e972b8244349b140ad4a3a5569a9</sys_id>
+        <sys_metadata>181e7c3ec3294f941f1571fdd40131c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MB Counselors</sys_name>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_scope_delete display_value="">4d0047fa907a4775be6fcef89053a249</sys_scope_delete>
+        <sys_update_name>sys_ui_module_181e7c3ec3294f941f1571fdd40131c9</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_181e7c3ec3294f941f1571fdd40131c9">58fddccbc365cf941f1571fdd401315e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 12:41:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

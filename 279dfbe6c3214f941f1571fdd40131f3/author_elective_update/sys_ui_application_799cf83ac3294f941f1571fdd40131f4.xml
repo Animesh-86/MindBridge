@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>MindBridge</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 20:16:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>799cf83ac3294f941f1571fdd40131f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MindBridge</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_update_name>sys_ui_application_799cf83ac3294f941f1571fdd40131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 20:16:16</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</application>
+        <file_path/>
+        <instance_id>e29568311b5a7ddc39a54089bd4bcb4e</instance_id>
+        <instance_name>dev204060</instance_name>
+        <name>sys_ui_application_799cf83ac3294f941f1571fdd40131f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>MindBridge</name><order/><roles/><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-21 20:16:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>799cf83ac3294f941f1571fdd40131f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MindBridge</sys_name><sys_overrides/><sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package><sys_policy/><sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope><sys_update_name>sys_ui_application_799cf83ac3294f941f1571fdd40131f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-21 20:16:16</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-1584403881</payload_hash>
+        <record_name>MindBridge</record_name>
+        <reverted_from/>
+        <source>be457cbac3e54f941f1571fdd401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 20:16:16</sys_created_on>
+        <sys_id>f3fc387ec3e54f941f1571fdd40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eebd3a47d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 20:16:16</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>b3fc387e47e54f94247196c0d0aa93f8</update_guid>
+        <update_guid_history>b3fc387e47e54f94247196c0d0aa93f8:-1584403881</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 20:28:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>0844013ee040437e80b73243e270d4e1</sys_id>
+        <sys_metadata>799cf83ac3294f941f1571fdd40131f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MindBridge</sys_name>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_scope_delete display_value="">4d0047fa907a4775be6fcef89053a249</sys_scope_delete>
+        <sys_update_name>sys_ui_application_799cf83ac3294f941f1571fdd40131f4</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_799cf83ac3294f941f1571fdd40131f4">f3fc387ec3e54f941f1571fdd40131f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 20:28:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

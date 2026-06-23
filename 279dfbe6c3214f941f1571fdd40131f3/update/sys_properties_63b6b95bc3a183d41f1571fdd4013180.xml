@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Groq API Key for MindBridge AI Integration</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>true</is_private>
+        <name>x_1920012_mindbr_0.groq.api.key</name>
+        <read_roles/>
+        <suffix>groq.api.key</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 13:48:27</sys_created_on>
+        <sys_id>63b6b95bc3a183d41f1571fdd4013180</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1920012_mindbr_0.groq.api.key</sys_name>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_update_name>sys_properties_63b6b95bc3a183d41f1571fdd4013180</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 19:31:08</sys_updated_on>
+        <type>string</type>
+        <value>gsk_xxxxxxxxxxxxxxxxx</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=63b6b95bc3a183d41f1571fdd4013180"/>
+</record_update>

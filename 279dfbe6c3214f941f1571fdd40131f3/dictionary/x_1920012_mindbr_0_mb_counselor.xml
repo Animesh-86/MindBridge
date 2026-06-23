@@ -2,7 +2,7 @@
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="aaaebf6ac3214f941f1571fdd401319d" label="MB Counselor" max_length="40" name="x_1920012_mindbr_0_mb_counselor" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Active Cases" max_length="255" name="active_cases" type="integer"/>
-        <element label="Maximum Active Cases" max_length="40" name="maximum_active_cases" type="integer"/>
+        <element default="20" label="Maximum Active Cases" max_length="40" name="maximum_active_cases" type="integer"/>
         <element label="Crisis Specialist" max_length="255" name="crisis_specialist" type="boolean"/>
         <element choice="3" label="Speciality" mandatory="true" max_length="255" name="speciality" type="choice">
             <choice>

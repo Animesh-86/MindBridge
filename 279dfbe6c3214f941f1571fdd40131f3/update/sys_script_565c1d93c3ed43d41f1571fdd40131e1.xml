@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1920012_mindbr_0_mb_case</collection>
+        <condition>current.ai_analyzed != true</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Analyze with AI</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+    try {
+
+        var description = current.emotional_description + '';
+
+        var rm = new sn_ws.RESTMessageV2('Groq AI', 'Analyze');
+
+        var requestBody = {
+            model: "llama-3.1-8b-instant",
+            messages: [
+                {
+                    role: "system",
+                    content: "You are a mental health triage assistant. Return ONLY JSON in this format: {\"risk\":\"Low|Medium|High|Critical\",\"summary\":\"...\",\"recommendation\":\"...\"}"
+                },
+                {
+                    role: "user",
+                    content: description
+                }
+            ]
+        };
+
+        rm.setRequestBody(JSON.stringify(requestBody));
+
+        var response = rm.execute();
+
+        var responseBody = response.getBody();
+		gs.info("Groq Response = " + responseBody);
+
+        gs.info("Groq Response: " + responseBody);
+
+        var result = JSON.parse(responseBody);
+
+        var aiText = result.choices[0].message.content;
+		gs.info("AI Content = " + aiText);
+
+        var aiJson = JSON.parse(aiText);
+
+        current.ai_risk_level = aiJson.risk;
+        current.ai_summary = aiJson.summary;
+        current.ai_recommendation = aiJson.recommendation;
+        current.ai_analyzed = true;
+		current.update();
+
+    } catch (e) {
+
+        gs.error("MindBridge AI Error: " + e);
+
+        current.ai_risk_level = "Medium";
+        current.ai_summary = "AI analysis failed.";
+        current.ai_recommendation = "Manual counselor review required.";
+		current.update();
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 11:54:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>565c1d93c3ed43d41f1571fdd40131e1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Analyze with AI</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_update_name>sys_script_565c1d93c3ed43d41f1571fdd40131e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 17:45:49</sys_updated_on>
+        <template/>
+        <when>async_always</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=565c1d93c3ed43d41f1571fdd40131e1"/>
+</record_update>

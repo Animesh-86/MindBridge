@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AI Assessment</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    var show = g_form.getValue('ai_analyzed') == 'true';
+
+    g_form.setDisplay('ai_summary', show);
+    g_form.setDisplay('ai_recommendation', show);
+    g_form.setDisplay('ai_risk_level', show);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 18:15:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8024361bc3a983d41f1571fdd40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_update_name>sys_script_client_8024361bc3a983d41f1571fdd40131cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 18:15:18</sys_updated_on>
+        <table>x_1920012_mindbr_0_mb_case</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</application>
+        <file_path/>
+        <instance_id>e29568311b5a7ddc39a54089bd4bcb4e</instance_id>
+        <instance_name>dev204060</instance_name>
+        <name>sys_script_client_8024361bc3a983d41f1571fdd40131cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;AI Assessment&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    var show = g_form.getValue('ai_analyzed') == 'true';
+
+    g_form.setDisplay('ai_summary', show);
+    g_form.setDisplay('ai_recommendation', show);
+    g_form.setDisplay('ai_risk_level', show);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-23 18:15:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8024361bc3a983d41f1571fdd40131cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;AI Assessment&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MindBridge" source="x_1920012_mindbr_0"&gt;279dfbe6c3214f941f1571fdd40131f3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MindBridge"&gt;279dfbe6c3214f941f1571fdd40131f3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_8024361bc3a983d41f1571fdd40131cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-23 18:15:18&lt;/sys_updated_on&gt;&lt;table&gt;x_1920012_mindbr_0_mb_case&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>47353130</payload_hash>
+        <record_name>AI Assessment</record_name>
+        <reverted_from/>
+        <source>be457cbac3e54f941f1571fdd401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 18:15:19</sys_created_on>
+        <sys_id>a774325bc3a983d41f1571fdd401315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ef5b19f350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 18:15:19</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6774325bd4a983d45546fe9ab317ba5c</update_guid>
+        <update_guid_history>6774325bd4a983d45546fe9ab317ba5c:47353130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 18:16:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>754a4613218242b68cb0805887c08ab1</sys_id>
+        <sys_metadata>8024361bc3a983d41f1571fdd40131cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Assessment</sys_name>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_parent display_value="MB Case">a42f33eac3214f941f1571fdd4013118</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_scope_delete display_value="">4d0047fa907a4775be6fcef89053a249</sys_scope_delete>
+        <sys_update_name>sys_script_client_8024361bc3a983d41f1571fdd40131cb</sys_update_name>
+        <sys_update_version display_value="sys_script_client_8024361bc3a983d41f1571fdd40131cb">a774325bc3a983d41f1571fdd401315d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 18:16:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

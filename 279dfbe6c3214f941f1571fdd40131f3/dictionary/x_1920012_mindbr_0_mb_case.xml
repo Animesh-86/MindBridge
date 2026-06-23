@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="a42f33eac3214f941f1571fdd4013118" label="MB Case" max_length="40" name="x_1920012_mindbr_0_mb_case" type="collection">
         <element label="Emotional Description" mandatory="true" max_length="1000" name="emotional_description" type="string"/>
-        <element label="Confirmation Token" max_length="100" name="confirmation_token" type="string"/>
-        <element label="Crisis Flag" max_length="255" name="crisis_flag" type="boolean"/>
+        <element label="Confirmation Token" max_length="100" name="confirmation_token" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element label="Crisis Flag" max_length="255" name="crisis_flag" read_only="true" read_only_option="display_read_only" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="LOW" label="Urgency" max_length="255" name="urgency" type="choice">
             <choice>
                 <element inactive_on_update="false" label="MEDIUM" sequence="1" value="MEDIUM"/>
@@ -10,7 +10,19 @@
                 <element inactive_on_update="false" label="HIGH" sequence="2" value="HIGH"/>
             </choice>
         </element>
-        <element label="Assigned Counselor" max_length="32" name="assigned_counselor" reference="x_1920012_mindbr_0_mb_counselor" type="reference"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Assigned Counselor" max_length="32" name="assigned_counselor" read_only="true" read_only_option="display_read_only" reference="x_1920012_mindbr_0_mb_counselor" type="reference"/>
+        <element choice="3" label="AI Risk Level" max_length="40" name="ai_risk_level" read_only="true" read_only_option="display_read_only" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+            </choice>
+        </element>
+        <element label="AI Analyzed" max_length="40" name="ai_analyzed" read_only="true" read_only_option="display_read_only" type="boolean"/>
+        <element label="AI Recommendation" max_length="1000" name="ai_recommendation" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element label="AI Summary" max_length="1000" name="ai_summary" read_only="true" read_only_option="display_read_only" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="New" label="Status" max_length="255" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="In Progress" sequence="3" value="In Progress"/>
@@ -23,6 +35,7 @@
         </element>
         <element label="Contact Email" max_length="40" name="contact_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone Number" mandatory="true" max_length="255" name="phone_number" type="phone_number_e164"/>
         <index name="index">
             <element name="assigned_counselor"/>
         </index>

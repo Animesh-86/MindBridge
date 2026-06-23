@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AI Assessment</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    var analyzed = g_form.getValue('ai_analyzed');
+
+    var show = analyzed == 'true';
+
+    alert("Show = " + show);
+
+    g_form.setDisplay('ai_summary', show);
+    g_form.setDisplay('ai_recommendation', show);
+    g_form.setDisplay('ai_risk_level', show);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 18:17:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afd4be5bc3a983d41f1571fdd40131fa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AI Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_update_name>sys_script_client_afd4be5bc3a983d41f1571fdd40131fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 18:53:53</sys_updated_on>
+        <table>x_1920012_mindbr_0_mb_case</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

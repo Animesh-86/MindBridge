@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">a5e12e4fc3a503d41f1571fdd40131c5</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":5,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY2FzZTE3ODIxNjYwOTEyMjA=","groupByField":"number","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false}],"sortBy":null,"sortByOrder":"ORDERBY","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"l475l0l1","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","columns":"assigned_counselor,number,status,sys_created_on,urgency","table":"x_1920012_mindbr_0_mb_case","groupByField":"number","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitleAlignment":"start","headerTitle":"Recent Cases","showBorder":true,"showExportOption":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"MB Case","sourceType":"table","tableOrViewName":"x_1920012_mindbr_0_mb_case","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY2FzZTE3ODIxNjYwOTEyMjA=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false}</component_props>
+        <h>20</h>
+        <name/>
+        <required_translations>[{"comment":"","code":"PAR_DASHBOARD.a5e12e4fc3a503d41f1571fdd40131c5.4ae16e4fc3a503d41f1571fdd401314e","message":"No data available."},{"comment":"","code":"PAR_DASHBOARD.a5e12e4fc3a503d41f1571fdd40131c5.4ae16e4fc3a503d41f1571fdd401314e","message":"There are no scores available for the selected criteria. Contact your admin for more info."},{"comment":"","code":"PAR_DASHBOARD.a5e12e4fc3a503d41f1571fdd40131c5.4ae16e4fc3a503d41f1571fdd401314e","message":"Recent Cases"},{"comment":"","code":"PAR_DASHBOARD.a5e12e4fc3a503d41f1571fdd40131c5.4ae16e4fc3a503d41f1571fdd401314e","message":"MB Case"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 22:15:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ae16e4fc3a503d41f1571fdd401314e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_update_name>par_dashboard_widget_4ae16e4fc3a503d41f1571fdd401314e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 22:15:37</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</application>
+        <file_path/>
+        <instance_id>e29568311b5a7ddc39a54089bd4bcb4e</instance_id>
+        <instance_name>dev204060</instance_name>
+        <name>par_dashboard_widget_4ae16e4fc3a503d41f1571fdd401314e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">a5e12e4fc3a503d41f1571fdd40131c5</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":5,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY2FzZTE3ODIxNjYwOTEyMjA=","groupByField":"number","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false}],"sortBy":null,"sortByOrder":"ORDERBY","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":true,"componentId":"l475l0l1","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","columns":"assigned_counselor,number,status,sys_created_on,urgency","table":"x_1920012_mindbr_0_mb_case","groupByField":"number","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitleAlignment":"start","headerTitle":"Recent Cases","showBorder":true,"showExportOption":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"MB Case","sourceType":"table","tableOrViewName":"x_1920012_mindbr_0_mb_case","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY2FzZTE3ODIxNjYwOTEyMjA=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false}</component_props><h>20</h><name/><required_translations>[{"comment":"","code":"PAR_DASHBOARD.a5e12e4fc3a503d41f1571fdd40131c5.4ae16e4fc3a503d41f1571fdd401314e","message":"No data available."},{"comment":"","code":"PAR_DASHBOARD.a5e12e4fc3a503d41f1571fdd40131c5.4ae16e4fc3a503d41f1571fdd401314e","message":"There are no scores available for the selected criteria. Contact your admin for more info."},{"comment":"","code":"PAR_DASHBOARD.a5e12e4fc3a503d41f1571fdd40131c5.4ae16e4fc3a503d41f1571fdd401314e","message":"Recent Cases"},{"comment":"","code":"PAR_DASHBOARD.a5e12e4fc3a503d41f1571fdd40131c5.4ae16e4fc3a503d41f1571fdd401314e","message":"MB Case"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-22 22:15:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4ae16e4fc3a503d41f1571fdd401314e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package><sys_policy/><sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope><sys_update_name>par_dashboard_widget_4ae16e4fc3a503d41f1571fdd401314e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-22 22:15:37</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>710046608</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>be457cbac3e54f941f1571fdd401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 22:15:38</sys_created_on>
+        <sys_id>82e16e4fc3a503d41f1571fdd4013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ef16748110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 22:15:38</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>42e16e4f51a503d455c7699ef4e7cc51</update_guid>
+        <update_guid_history>42e16e4f51a503d455c7699ef4e7cc51:710046608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cef8a24fc3e503d41f1571fdd4013150</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 22:46:29</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1ca762362fa9490e8668f05e88751e59</sys_id>
+        <sys_metadata>4ae16e4fc3a503d41f1571fdd401314e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_scope_delete display_value="">4d0047fa907a4775be6fcef89053a249</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_4ae16e4fc3a503d41f1571fdd401314e</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_4ae16e4fc3a503d41f1571fdd401314e">82e16e4fc3a503d41f1571fdd4013152</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 22:46:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

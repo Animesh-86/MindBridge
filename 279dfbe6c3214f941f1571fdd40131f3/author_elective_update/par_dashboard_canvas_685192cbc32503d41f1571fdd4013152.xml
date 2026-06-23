@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="MindBridge Operations Dashboard">54511e8bc32503d41f1571fdd401316f</dashboard>
+        <dashboard_tab display_value="New Tab 2">ec5192cbc32503d41f1571fdd401314c</dashboard_tab>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 21:03:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>685192cbc32503d41f1571fdd4013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_update_name>par_dashboard_canvas_685192cbc32503d41f1571fdd4013152</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 21:03:10</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</application>
+        <file_path/>
+        <instance_id>e29568311b5a7ddc39a54089bd4bcb4e</instance_id>
+        <instance_name>dev204060</instance_name>
+        <name>par_dashboard_canvas_685192cbc32503d41f1571fdd4013152</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="MindBridge Operations Dashboard">54511e8bc32503d41f1571fdd401316f</dashboard><dashboard_tab display_value="New Tab 2">ec5192cbc32503d41f1571fdd401314c</dashboard_tab><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-22 21:03:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>685192cbc32503d41f1571fdd4013152</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package><sys_policy/><sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope><sys_update_name>par_dashboard_canvas_685192cbc32503d41f1571fdd4013152</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-22 21:03:10</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>130064460</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>be457cbac3e54f941f1571fdd401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 21:03:10</sys_created_on>
+        <sys_id>ac5192cbc32503d41f1571fdd4013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ef124f1470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 21:03:10</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>6c5192cb932503d462ba0958c6778054</update_guid>
+        <update_guid_history>6c5192cb932503d462ba0958c6778054:130064460</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">35e12e4fc3a503d41f1571fdd40131f7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 22:15:36</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>25902b92393e42888dcd9c6ad2463864</sys_id>
+        <sys_metadata>685192cbc32503d41f1571fdd4013152</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_scope_delete display_value="">4d0047fa907a4775be6fcef89053a249</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_685192cbc32503d41f1571fdd4013152</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_685192cbc32503d41f1571fdd4013152">ac5192cbc32503d41f1571fdd4013155</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 22:15:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">61e12e4fc3a503d41f1571fdd4013188</canvas>
+        <component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"showPercentageOfTotalInTooltip":true,"yAxisHidden":false,"xAxisHidden":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"MB Counselor","sourceType":"table","tableOrViewName":"x_1920012_mindbr_0_mb_counselor","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY291bnNlbG9yMTc4MjE2MjkzMDY5Mg==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Counselor Workload","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY291bnNlbG9yMTc4MjE2MjkzMDY5Mg==","id":"ZEdGaWJHVjRYekU1TWpBd01USmZiV2x1WkdKeVh6QmZiV0pmWTI5MWJuTmxiRzl5TVRjNE1qRTJNamt6TURZNU1nPT0xNzgyMTYyOTMxODIz","aggregateFunction":"SUM","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"active_cases"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY291bnNlbG9yMTc4MjE2MjkzMDY5Mg==","groupByField":"name","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"lowrpg71","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{}}</component_props>
+        <h>19</h>
+        <name/>
+        <required_translations>[{"comment":"","code":"PAR_DASHBOARD.61e12e4fc3a503d41f1571fdd4013188.e5e12e4fc3a503d41f1571fdd40131bd","message":"MB Counselor"},{"comment":"","code":"PAR_DASHBOARD.61e12e4fc3a503d41f1571fdd4013188.e5e12e4fc3a503d41f1571fdd40131bd","message":"Counselor Workload"},{"comment":"","code":"PAR_DASHBOARD.61e12e4fc3a503d41f1571fdd4013188.e5e12e4fc3a503d41f1571fdd40131bd","message":"No data available."},{"comment":"","code":"PAR_DASHBOARD.61e12e4fc3a503d41f1571fdd4013188.e5e12e4fc3a503d41f1571fdd40131bd","message":"There are no scores available for the selected criteria. Contact your admin for more info."}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 22:15:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5e12e4fc3a503d41f1571fdd40131bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_update_name>par_dashboard_widget_e5e12e4fc3a503d41f1571fdd40131bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 22:15:36</sys_updated_on>
+        <visualization/>
+        <w>30</w>
+        <widget_props/>
+        <x>1</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</application>
+        <file_path/>
+        <instance_id>e29568311b5a7ddc39a54089bd4bcb4e</instance_id>
+        <instance_name>dev204060</instance_name>
+        <name>par_dashboard_widget_e5e12e4fc3a503d41f1571fdd40131bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">61e12e4fc3a503d41f1571fdd4013188</canvas><component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"showPercentageOfTotalInTooltip":true,"yAxisHidden":false,"xAxisHidden":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"MB Counselor","sourceType":"table","tableOrViewName":"x_1920012_mindbr_0_mb_counselor","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY291bnNlbG9yMTc4MjE2MjkzMDY5Mg==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Counselor Workload","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY291bnNlbG9yMTc4MjE2MjkzMDY5Mg==","id":"ZEdGaWJHVjRYekU1TWpBd01USmZiV2x1WkdKeVh6QmZiV0pmWTI5MWJuTmxiRzl5TVRjNE1qRTJNamt6TURZNU1nPT0xNzgyMTYyOTMxODIz","aggregateFunction":"SUM","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"active_cases"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE5MjAwMTJfbWluZGJyXzBfbWJfY291bnNlbG9yMTc4MjE2MjkzMDY5Mg==","groupByField":"name","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"lowrpg71","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{}}</component_props><h>19</h><name/><required_translations>[{"comment":"","code":"PAR_DASHBOARD.61e12e4fc3a503d41f1571fdd4013188.e5e12e4fc3a503d41f1571fdd40131bd","message":"MB Counselor"},{"comment":"","code":"PAR_DASHBOARD.61e12e4fc3a503d41f1571fdd4013188.e5e12e4fc3a503d41f1571fdd40131bd","message":"Counselor Workload"},{"comment":"","code":"PAR_DASHBOARD.61e12e4fc3a503d41f1571fdd4013188.e5e12e4fc3a503d41f1571fdd40131bd","message":"No data available."},{"comment":"","code":"PAR_DASHBOARD.61e12e4fc3a503d41f1571fdd4013188.e5e12e4fc3a503d41f1571fdd40131bd","message":"There are no scores available for the selected criteria. Contact your admin for more info."}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-22 22:15:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e5e12e4fc3a503d41f1571fdd40131bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package><sys_policy/><sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope><sys_update_name>par_dashboard_widget_e5e12e4fc3a503d41f1571fdd40131bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-22 22:15:36</sys_updated_on><visualization/><w>30</w><widget_props/><x>1</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>499389253</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>be457cbac3e54f941f1571fdd401313e</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 22:15:36</sys_created_on>
+        <sys_id>a1e12e4fc3a503d41f1571fdd40131c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ef16740b60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 22:15:36</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>61e12e4fa9a503d42a505d20d234c3c0</update_guid>
+        <update_guid_history>61e12e4fa9a503d42a505d20d234c3c0:499389253</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5ee16e4fc3a503d41f1571fdd40131c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 22:15:39</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>222b815521fa468899fe56f6faad3a40</sys_id>
+        <sys_metadata>e5e12e4fc3a503d41f1571fdd40131bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MindBridge" source="x_1920012_mindbr_0">279dfbe6c3214f941f1571fdd40131f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MindBridge">279dfbe6c3214f941f1571fdd40131f3</sys_scope>
+        <sys_scope_delete display_value="">4d0047fa907a4775be6fcef89053a249</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e5e12e4fc3a503d41f1571fdd40131bd</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e5e12e4fc3a503d41f1571fdd40131bd">a1e12e4fc3a503d41f1571fdd40131c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 22:15:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

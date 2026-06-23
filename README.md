@@ -1,106 +1,126 @@
-# MindBridge - Mental Health Case Management System
+# MindBridge - AI-Powered Mental Health Case Management System
 
 ## Overview
 
-MindBridge is a ServiceNow-based Mental Health Case Management platform designed to streamline the process of handling counseling requests, assigning counselors, scheduling appointments, and managing crisis situations.
+MindBridge is a ServiceNow-based AI-powered Mental Health Case Management platform designed to streamline counseling request management, automate counselor assignment, prioritize high-risk cases, schedule appointments, and generate AI-driven assessments.
 
-The system automates counselor allocation, prioritizes crisis cases, balances counselor workloads, and schedules counseling appointments while providing end-to-end visibility into case management operations.
+The platform combines ServiceNow workflow automation with Groq LLM integration to provide intelligent case triage, counselor workload balancing, appointment management, and session documentation.
 
 ---
 
 ## Problem Statement
 
-Educational institutions and organizations often struggle with:
+Educational institutions and organizations often face challenges such as:
 
 * Manual counselor assignment
-* Delayed response to crisis cases
+* Delayed response to students in distress
 * Uneven counselor workload distribution
 * Lack of appointment tracking
-* Poor visibility into case lifecycle
-* Manual communication and follow-ups
+* Limited visibility into counseling operations
+* Manual session documentation
+* Difficulty identifying high-risk cases
 
-MindBridge addresses these challenges through workflow automation and intelligent routing mechanisms built on the ServiceNow platform.
+MindBridge addresses these challenges through workflow automation, intelligent routing, and AI-assisted analysis.
 
 ---
 
-# Key Features
+## Key Features
 
-## Case Intake Management
+### AI-Powered Case Assessment
 
-Users can submit counseling requests through a structured intake process containing:
+When a student submits a counseling request, MindBridge automatically analyzes the emotional description using Groq LLM.
 
-* Emotional description
-* Urgency level
-* Contact information
-* Crisis flag indicator
+The AI generates:
+
+* Risk Level Classification
+* Case Summary
+* Counselor Recommendation
+
+Supported Risk Levels:
+
+* Low
+* Medium
+* High
+* Critical
+
+Example:
+
+Student Input:
+
+> "I feel hopeless and overwhelmed. I cannot sleep and sometimes think about hurting myself."
+
+AI Output:
+
+* Risk Level: Critical
+* Summary: Signs of emotional distress and potential self-harm indicators detected.
+* Recommendation: Immediate counselor intervention required.
+
+---
+
+### Case Intake Management
+
+Students can submit counseling requests through a structured intake form containing:
+
+* Student Name
+* Contact Email
+* Phone Number
+* Emotional Description
 
 Each submission automatically generates a unique case record.
 
 ---
 
-## Crisis Specialist Routing
+### Automatic Counselor Assignment
 
-When a case is identified as a crisis case:
+Once a case is created:
 
-* The system automatically searches for available counselors.
-* Filters counselors by:
+* Available counselors are identified.
+* Counselor capacity is evaluated.
+* The most suitable counselor is assigned automatically.
 
-  * Status = Available
-  * Specialty = Crisis
-* Assigns the most suitable counselor.
+Assignment Conditions:
 
-This ensures critical cases receive immediate attention from trained professionals.
+* Status = Available
+* Active Cases < Maximum Active Cases
 
----
-
-## Automatic Counselor Assignment
-
-For non-crisis cases:
-
-The system automatically:
-
-1. Finds available counselors.
-2. Checks workload capacity.
-3. Assigns the counselor with available capacity.
-
-Conditions:
-
-```text
-Status = Available
-Active Cases < Maximum Active Cases
-```
-
-This prevents counselor overload and ensures balanced distribution.
+This ensures balanced workload distribution across counselors.
 
 ---
 
-## Counselor Capacity Management
+### Crisis Case Prioritization
 
-Each counselor record maintains:
+Critical and high-risk cases are prioritized through automated routing logic.
 
-* Current Active Cases
-* Maximum Active Cases
+The system can:
+
+* Flag crisis situations
+* Assign counselors immediately
+* Prioritize urgent interventions
+
+---
+
+### Counselor Capacity Management
+
+Each counselor maintains:
+
 * Availability Status
-* Specialization
+* Specialty
+* Active Cases
+* Maximum Active Cases
 
-Assignment logic ensures counselors do not exceed their configured workload limits.
+MindBridge prevents counselor overload by validating capacity before assignment.
 
 ---
 
-## Appointment Automation
+### Appointment Automation
 
-Once a counselor is assigned:
+After counselor assignment:
 
-* Appointment records are automatically created.
-* Appointment status is initialized as:
+* Appointment records are generated automatically.
+* Appointments are linked to the associated case.
+* Status is initialized as Scheduled.
 
-```text
-Scheduled
-```
-
-* Appointment date is generated automatically.
-
-Current implementation schedules appointments dynamically using:
+Automatic Scheduling Logic:
 
 ```javascript
 var gdt = new GlideDateTime();
@@ -108,23 +128,23 @@ gdt.addDaysUTC(1);
 return gdt;
 ```
 
-Result:
-
 Appointments are automatically scheduled for the next day.
 
 ---
 
-## Appointment Tracking
+### Appointment Tracking
 
 Appointment records maintain:
 
 * Appointment Date
-* Assigned Counselor
 * Related Case
+* Assigned Counselor
 * Status
-* Notes
+* Session Notes
+* AI Session Summary
+* Follow-up Recommendation
 
-Supported statuses:
+Supported Appointment Statuses:
 
 * Scheduled
 * Completed
@@ -133,23 +153,35 @@ Supported statuses:
 
 ---
 
-## Notification System
+### AI Session Summary Generation
 
-### Appointment Confirmation
+After a counseling session:
 
-Triggered after appointment creation.
+1. Counselor enters session notes.
+2. AI generates:
+
+   * Session Summary
+   * Follow-up Recommendation
+
+This reduces manual documentation effort and improves record consistency.
+
+---
+
+### Notification System
+
+#### Appointment Confirmation
+
+Automatically triggered after appointment creation.
 
 Provides:
 
 * Appointment details
-* Counselor information
+* Assigned counselor information
 * Scheduled date and time
 
----
+#### Session Completion Notification
 
-### Counseling Session Completed
-
-Triggered when a counseling session is marked as completed.
+Triggered when a counseling session is completed.
 
 Provides:
 
@@ -158,68 +190,64 @@ Provides:
 
 ---
 
-# Workflow Architecture
+## Workflow Architecture
 
-## Case Intake Automation
+### Student Intake Flow
 
-### Crisis Case Flow
-
-```text
-Case Created
-       ↓
-Crisis Flag = True
-       ↓
-Find Crisis Counselor
-       ↓
-Available?
-       ↓
-Assign Counselor
-       ↓
-Create Appointment
-       ↓
-Send Confirmation
-```
+Student Creates Case
+↓
+AI Risk Assessment (Groq)
+↓
+Risk Classification
+↓
+Counselor Assignment
+↓
+Appointment Creation
+↓
+Notification Sent
 
 ---
 
-### Standard Case Flow
+### Counseling Flow
 
-```text
-Case Created
-       ↓
-Find Available Counselor
-       ↓
-Check Capacity
-       ↓
-Assign Counselor
-       ↓
-Create Appointment
-       ↓
-Send Confirmation
-```
+Appointment Scheduled
+↓
+Counseling Session Conducted
+↓
+Counselor Adds Session Notes
+↓
+AI Session Summary Generated
+↓
+Follow-up Recommendation Created
+↓
+Case Updated
 
 ---
 
-# Data Model
+## Data Model
 
-## MB Case
+### MB Case
 
 Stores counseling requests.
 
 Fields:
 
 * Number
+* Student Name
 * Contact Email
+* Phone Number
 * Emotional Description
-* Urgency
+* AI Risk Level
+* AI Summary
+* AI Recommendation
 * Assigned Counselor
 * Status
 * Crisis Flag
-* Confirmation Token
+* AI Analyzed
 
 ---
 
-## MB Counselor
+### MB Counselor
 
 Stores counselor information.
 
@@ -227,122 +255,127 @@ Fields:
 
 * Name
 * Email
-* Availability
 * Status
 * Specialty
 * Active Cases
 * Maximum Active Cases
-* Crisis Specialist
+* Availability
 
 ---
 
-## MB Appointment
+### MB Appointment
 
 Stores appointment information.
 
 Fields:
 
 * Appointment Date
-* Case
+* Related Case
 * Counselor
 * Status
-* Notes
+* Session Notes
+* AI Session Summary
+* Follow-up Recommendation
 
 ---
 
-# Business Logic
+## AI Integration
 
-## Crisis Routing Logic
+MindBridge integrates with Groq LLM through REST APIs.
 
-```text
-IF Crisis Flag = True
-THEN
-Assign Crisis Specialist
-```
+Process:
 
----
+Case Description
+↓
+Groq API
+↓
+LLM Analysis
+↓
+Risk Level
+Summary
+Recommendation
+↓
+Case Record Updated
 
-## Capacity Validation
+Benefits:
 
-```text
-Active Cases < Maximum Active Cases
-```
-
-Only counselors satisfying this condition are eligible for assignment.
-
----
-
-## Appointment Scheduling Logic
-
-```javascript
-var gdt = new GlideDateTime();
-gdt.addDaysUTC(1);
-return gdt;
-```
-
-Automatically schedules appointments for the following day.
+* Faster triage
+* Improved risk identification
+* Reduced manual review effort
+* Consistent recommendations
 
 ---
 
-# Technologies Used
+## Technologies Used
 
-## Platform
+### Platform
 
-* ServiceNow Studio
+* ServiceNow
 * Flow Designer
+* Business Rules
 * Notifications
 * Custom Application Scope
 
-## Development Components
+### AI Integration
+
+* Groq API
+* Llama 3.1 Model
+* RESTMessageV2
+
+### Development Components
 
 * Custom Tables
 * Reference Fields
-* Flow Logic
-* Record Lookups
+* Flow Automation
+* Script Includes
+* Async Business Rules
 * Dynamic Data Pills
-* Scripted Date Calculations
 
 ---
 
-# Benefits
+## Benefits
 
 ### Faster Response Time
 
-Automated routing significantly reduces manual assignment delays.
+Automated routing significantly reduces counselor assignment delays.
 
-### Crisis Prioritization
+### AI-Assisted Triage
 
-Critical mental health cases receive immediate specialist attention.
+Risk assessment helps identify students requiring urgent support.
 
 ### Balanced Workload
 
-Counselor assignments are distributed fairly.
+Counselor assignments are distributed fairly based on capacity.
 
 ### Reduced Administrative Effort
 
-Automated workflows eliminate repetitive manual tasks.
+Automation minimizes repetitive manual work.
 
-### Improved Case Visibility
+### Improved Documentation
 
-Track cases, counselors, and appointments through a centralized platform.
+AI-generated summaries streamline counseling records.
+
+### Better Visibility
+
+Centralized tracking of cases, counselors, and appointments.
 
 ---
 
-# Future Enhancements
+## Future Enhancements
 
-* AI-Based Risk Assessment
-* Sentiment Analysis
-* Automatic Crisis Detection
-* Counselor Recommendation Engine
+* Resource Recommendation Engine
+* Mental Health Resource Library
+* AI-Based Counselor Suggestions
+* Sentiment Trend Analysis
 * Follow-up Appointment Automation
-* Dashboard & Analytics
 * SLA Monitoring
-* Real-time Alerts
+* Advanced Analytics Dashboard
+* Real-Time Crisis Alerts
 
 ---
 
-# Project Outcome
+## Project Outcome
 
-MindBridge successfully demonstrates how ServiceNow workflow automation can be leveraged to create an efficient, scalable, and responsive mental health support management system.
+MindBridge demonstrates how ServiceNow workflow automation and Generative AI can be combined to create an intelligent, scalable, and responsive mental health support platform.
 
-The platform automates counselor assignment, prioritizes crisis situations, manages appointment scheduling, and streamlines communication, providing a complete end-to-end mental health case management solution.
+The system automates case intake, performs AI-powered risk assessment, assigns counselors intelligently, schedules appointments, generates counseling summaries, and streamlines the complete counseling lifecycle from intake to resolution.

@@ -355,21 +355,6 @@ Resolve Case
 Dashboard Analytics
 ```
 
----
-
-## Future Enhancements
-
-* Mental Health Resource Recommendation Engine
-* AI-Based Session Summary Generation
-* Follow-up Appointment Automation
-* Counselor Availability Prediction
-* Real-Time Crisis Alerts
-* Email & SMS Notifications
-* Analytics Trend Reports
-* SLA Monitoring
-
----
-
 ## Author
 
 **Animesh Sharma**
